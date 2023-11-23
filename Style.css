@@ -118,7 +118,7 @@ header nav ul li a i{
     box-shadow: 0 0 20px rgba(0, O, 0, 20%);
     z-index: 999;
  }
- /* Vue du mobile */
+ /* Vue du mobile*/
  @media only screen and (max-width: 1000px){
     header{
         left: -300px;
@@ -214,7 +214,8 @@ main{
   }
  }
 #about{
-    padding: 70px 30px;
+    padding: 20px 30px;
+    background-color: white;
 }
 .sub-heading{
     color: black;
@@ -330,31 +331,7 @@ main{
         width: 90%;
      }
  }
- #fact{
-    padding: 50px 30px;
-    background-color: white;
-}
-#fact .fact-row{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
-    margin-top: 50px;
-}
-#fact .fact-row .fact-box i{
-    color: var(--themeColor);
-    font-size: 40px;
-}
-#fact .fact-row .fact-box strong{
-    color: var(--sideBGColor);
-    font-size: 30px;
-    margin-left: 5px;
-    font-weight: 600;
-}
-#fact .fact-row .fact-box p{
-    color: var(--textColor);
-    font-weight: 500;
-    font-size: 16px;
-}
+ 
 @media only screen and (max-width: 385px){
     /* #fact{
         padding: 40px 15px;
@@ -375,7 +352,7 @@ main{
     }
  }
 #skill{
-    padding: 70px 30px;
+    padding: 20px 30px;
 }
 #skill .skill-row{
     margin-top: 35px;
@@ -416,7 +393,7 @@ main{
     }
 }
 #resume{
-    padding: 70px 30px;
+    padding: 20px 30px;
     background-color: white;
 }
 #resume .resume-row{
@@ -505,7 +482,7 @@ main{
     margin-bottom: 15px;
 }
 #portfolio{
-    padding: 70px 30px;
+    padding: 20px 30px;
 }
 #portfolio .port-row{
     margin-top: 50px;
@@ -586,46 +563,7 @@ main{
         grid-gap: 15px ;
     }
 }
-#service{
-    padding: 70px 30px;
-    background-color: white;
-}
-#service .services-row{
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-}
-#service .services-row .service-box{
-   display: flex;
-   gap: 20px;
-}
-#service .services-row .service-box .icon i{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid var(--themeColor);
-    font-size: 22px;
-    line-height: 46px;
-    background-color: var(--themeColor);
-    color: var(--bgColor);
-    transition: 0.8s;
-    text-align: center;
-}
-#service .services-row .service-box:hover .icon i{
-    color: var(--themeColor);
-    background-color: var(--bgColor);
-}
-#service .services-row .service-box .icon .service-info h4{
-    color: var(--sideBGColor);
-    font-size: 20px;
-    font-weight: 700;
-}
-#service .services-row .service-box .icon .service-info h4 + p{
-    color: var(--sideBGColor);
-    font-size: 15px;
-    font-weight: 600;
-}
+
 @media only screen and (max-width: 520px){
     #service .services-row{
         grid-template-columns: repeat(2, 1fr);
@@ -639,7 +577,7 @@ main{
     }
 }
 #contact{
-    padding: 70px 30px;
+    padding: 20px 30px;
 }
 #contact .contact-row{
     margin-top: 50px;
@@ -726,7 +664,6 @@ main{
     font-size: 17px;
     font-weight: 500;
     cursor: pointer;
-    /* width: 20%; */
     text-align: center;
     justify-content: center;
     align-items: center;

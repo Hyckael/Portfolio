@@ -455,7 +455,7 @@ pre {
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
-  @media (min-width: 768px) {
+  @media (min-width: 767px) {
     .container {
       max-width: 720px; } }
   @media (min-width: 992px) {
@@ -896,8 +896,8 @@ pre {
   .col-md-6 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%; }
+    flex: 0 0 55%;
+    max-width: 55%; }
   .col-md-7 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.33333%;
@@ -9426,7 +9426,11 @@ textarea.form-control {
     .contact-section .contact-form .btn-primary {
       display: block;
       width: 100%; } }
-
+ @media (max-width: 1200px) {
+  .progress-wrap h3 {
+    max-width: 15%; 
+  }
+}
 .block-9 .form-control {
   outline: none !important;
   -webkit-box-shadow: none !important;
